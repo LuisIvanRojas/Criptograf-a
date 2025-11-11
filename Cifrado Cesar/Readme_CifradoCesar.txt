@@ -1,15 +1,30 @@
-Este programa es una implementación del Cifrado César, un método de criptografía simple basado en la sustitución. En este cifrado, cada letra del texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+### Descripción del programa – Cifrado César
+
+Este programa implementa el Algoritmo de Cifrado César, uno de los métodos de criptografía por sustitución más antiguos y sencillos.
+El principio de funcionamiento consiste en reemplazar cada letra del mensaje original por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto, determinado por una **llave numérica**.
+
+Al ejecutar el programa, se presenta un "menú interactivo" que permite al usuario seleccionar una de las siguientes opciones:
+
+1. Cifrar
+   El programa solicita al usuario ingresar un mensaje (en letras minúsculas) y una clave numérica.
+   A continuación, cada letra del mensaje se desplaza hacia adelante en el alfabeto tantas posiciones como indique la clave, generando y mostrando el texto cifrado.
+
+2. Descifrar
+   El usuario introduce un mensaje previamente cifrado y la misma clave numérica utilizada para cifrarlo.
+   El programa aplica el desplazamiento inverso, restituyendo el texto original.
+
+3. Salir
+   Finaliza la ejecución del programa.
 
 
-Al ejecutar el programa, se despliega un menú interactivo que permite al usuario elegir entre tres opciones:
+### Consideraciones importantes
 
-1.  Cifrar: El programa solicita al usuario que ingrese un mensaje (solo en minúsculas) y una "llave" numérica. Luego, cada letra del mensaje se desplaza hacia adelante en el alfabeto tantas posiciones como indique la llave, mostrando el mensaje cifrado.
-2.  Descifrar: El usuario introduce un mensaje cifrado y la misma llave numérica que usó para cifrar. El programa revierte el proceso, desplazando las letras hacia atrás para revelar el mensaje original.
-3.  Salir: Termina la ejecución del programa.
+* El programa está diseñado para **procesar únicamente letras minúsculas del alfabeto inglés** (`a`–`z`).
+  No admite mayúsculas, números ni caracteres especiales.
 
+* Debido al uso de la función `scanf("%s", ...)`, solo se procesa una palabra a la vez.
+  En caso de ingresar una frase con espacios, únicamente se tomará en cuenta la primera palabra.
 
-Importante
+* El comando `system("cls")` se utiliza para limpiar la consola en sistemas **Windows**.
+  En entornos **Linux** o **macOS**, este comando puede sustituirse por `system("clear")`.
 
-  * El programa solo está diseñado para aceptar letras minúsculas del alfabeto inglés. No procesará mayúsculas, números ni símbolos.
-  * Debido al uso de `scanf("%s", ...)`, el programa solo leerá una sola palabra (hasta el primer espacio). Si introduces una frase, solo se procesará la primera palabra.
-  * El comando `system("cls")` es específico para limpiar la consola en Windows. En sistemas como Linux o macOS, el comando equivalente sería `system("clear")`.
