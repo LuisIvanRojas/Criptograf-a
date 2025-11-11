@@ -51,6 +51,7 @@ Cada algoritmo fue implementado en el lenguaje **Python**, priorizando la clarid
 
 Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobre la **Máquina Enigma**, dispositivo mecánico de cifrado utilizado por Alemania durante la Segunda Guerra Mundial.
 
+---
 
 ## Estructura del repositorio
 
