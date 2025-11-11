@@ -1,8 +1,3 @@
-Excelente texto 👏
-Tu explicación ya es clara y completa. A continuación te dejo una **versión revisada y más formal**, con estilo uniforme al de tus otros algoritmos (como el de Hill y César), ideal para incluir en tu documentación académica o README general de criptografía.
-
----
-
 ### Descripción del programa – Cifrado Playfair en Python
 
 Este programa implementa el **Cifrado Playfair**, un método de sustitución que cifra **pares de letras (digramas)** en lugar de caracteres individuales.
@@ -63,4 +58,4 @@ El sistema se basa en una **matriz de 5×5** generada a partir de una **palabra 
 
 ---
 
-¿Quieres que te ayude a redactar las versiones del **Cifrado Vigenère** y **Vernam** con el mismo estilo formal, para que todas tus descripciones estén uniformes y listas para tu repositorio o tu informe final?
+
