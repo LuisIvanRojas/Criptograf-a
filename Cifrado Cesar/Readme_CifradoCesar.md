@@ -11,10 +11,12 @@ Al ejecutar el programa, se presenta un "menú interactivo" que permite al usuar
    A continuación, cada letra del mensaje se desplaza hacia adelante en el alfabeto tantas posiciones como indique la clave, generando y mostrando el texto cifrado.
 
 2. Descifrar:
+   
    El usuario introduce un mensaje previamente cifrado y la misma clave numérica utilizada para cifrarlo.
    El programa aplica el desplazamiento inverso, restituyendo el texto original.
 
-3. Salir
+3. Salir:
+   
    Finaliza la ejecución del programa.
 
 
@@ -28,6 +30,7 @@ Al ejecutar el programa, se presenta un "menú interactivo" que permite al usuar
 
 * El comando `system("cls")` se utiliza para limpiar la consola en sistemas **Windows**.
   En entornos **Linux** o **macOS**, este comando puede sustituirse por `system("clear")`.
+
 
 
 
