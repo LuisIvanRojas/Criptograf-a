@@ -73,10 +73,10 @@ Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobr
 │
 └── reportes/
     └── Maquina_Enigma.pdf
-
+    
+```
 
 Cada subcarpeta contiene el código fuente correspondiente a un algoritmo, junto con comentarios descriptivos y ejemplos de uso.
-
 
 ##  Requisitos y entorno de ejecución
 
