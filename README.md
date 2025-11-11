@@ -29,17 +29,17 @@ Cada algoritmo fue implementado en el lenguaje **Python**, priorizando la clarid
 
 ## Algoritmos
 
-### 2.1 Cifrado César
+### 1. Cifrado César
 
-### 2.2 Cifrado Vigenère
+### 2. Cifrado Vigenère
 
-### 2.3 Cifrado Hill
+### 3. Cifrado Hill
 
-### 2.4 Cifrado Playfair
+### 4. Cifrado Playfair
 
-### 2.5 Cifrado Vernam
+### 5. Cifrado Vernam
 
-### 2.6 Máquina Enigma
+### 6. Máquina Enigma
 
 Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobre la **Máquina Enigma**, dispositivo mecánico de cifrado utilizado por Alemania durante la Segunda Guerra Mundial.
 
