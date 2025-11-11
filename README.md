@@ -45,9 +45,13 @@ Cada algoritmo fue implementado en el lenguaje **Python**, priorizando la clarid
 
 ### 5. Cifrado Vernam
 
-### 6. Reporte de Máquina Enigma
+### 6. Cifrado de Wheatstone
 
-### 7. Reporte Proyecto Final
+### 7. Algoritmo de euclides extendido
+
+### 8. Reporte de Máquina Enigma
+
+### 9. Reporte Proyecto Final
 
 Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobre la **Máquina Enigma**, dispositivo mecánico de cifrado utilizado por Alemania durante la Segunda Guerra Mundial.
 
