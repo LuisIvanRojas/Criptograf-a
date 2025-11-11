@@ -1,3 +1,8 @@
+#Cifrado Vernam
+#Roja Mares Luis Ivan
+#Lee Obando Ileana Veronica
+
+
 def vernam_cifrar(mensaje, clave):
     if len(mensaje) != len(clave):
         raise ValueError("La clave debe tener la misma longitud que el mensaje")
@@ -31,3 +36,4 @@ if __name__ == "__main__":
 
     descifrado = vernam_descifrar(cifrado, clave)
     print("Mensaje descifrado:", descifrado)
+
