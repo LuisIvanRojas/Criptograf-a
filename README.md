@@ -57,27 +57,35 @@ Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobr
 
 ```
 📂 Criptografia/
-├── cesar/
+├── Cifrado de Cesar/
 │   ├── cesar.py
 │   └── README.md
 │
-├── vigenere/
+├── Cifrado de Vigenere/
 │   ├── vigenere.py
 │   └── README.md
 │
-├── hill/
-│   ├── hill.py
-│   └── README.md
-│
-├── playfair/
+├── Cifrado de Playfair/
 │   ├── playfair.py
 │   └── README.md
 │
-├── vernam/
+├── Cifrado de Vernam/
 │   ├── vernam.py
 │   └── README.md
 │
-└── reportes/
+├── Cifrado de Hill/
+│   ├── hill.py
+│   └── README.md
+│
+├── Cifrado de Wheatstone/
+│   ├── wheatstone.py
+│   └── README.md
+│
+├── Algoritmo de euclides extendido/
+│   ├── euclides_extendido.py
+│   └── README.md
+│
+└── Reportes/
     └── Maquina_Enigma.pdf
     
 ```
