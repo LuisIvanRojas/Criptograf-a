@@ -13,6 +13,12 @@
 * Roja Mares Luis Iván
 * Lee Obando Ileana Verónica
 
+## Evaluación
+* Examen: 40%
+* Prácticas: 60%
+
+---
+
 ## Descripción general de implementación de algoritmos clásicos de cifrado
 
 El presente repositorio contiene la implementación y análisis de diversos **algoritmos clásicos de cifrado**, desarrollados como parte de la asignatura **Criptografía**.
@@ -26,7 +32,6 @@ Cada algoritmo fue implementado en el lenguaje **Python**, priorizando la clarid
 * Aplicar conocimientos de matemáticas (álgebra lineal y modular) en el ámbito criptográfico.
 * Identificar las debilidades de los sistemas de cifrado histórico.
 * Reconocer la evolución de los métodos de encriptación hasta los modelos modernos.
-
 
 ## Algoritmos
 
