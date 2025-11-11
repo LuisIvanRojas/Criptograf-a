@@ -1,3 +1,11 @@
+/*
+Cifrado Vigenere
+
+- Roja Mares Luis Ivan
+- Lee Obando Ileana Veronica
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -83,3 +91,4 @@ void descifrado() {
     original[lenMensaje] = '\0'; // final de cadena
     printf("\nMensaje original: %s\n", original);
 }
+
