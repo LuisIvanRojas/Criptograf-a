@@ -7,7 +7,7 @@ Al ejecutar el programa, se presenta un "menú interactivo" que permite al usuar
 
 1. Cifrar:
 
-El programa solicita al usuario ingresar un mensaje (en letras minúsculas) y una clave numérica.
+   El programa solicita al usuario ingresar un mensaje (en letras minúsculas) y una clave numérica.
    A continuación, cada letra del mensaje se desplaza hacia adelante en el alfabeto tantas posiciones como indique la clave, generando y mostrando el texto cifrado.
 
 2. Descifrar
@@ -28,5 +28,6 @@ El programa solicita al usuario ingresar un mensaje (en letras minúsculas) y un
 
 * El comando `system("cls")` se utiliza para limpiar la consola en sistemas **Windows**.
   En entornos **Linux** o **macOS**, este comando puede sustituirse por `system("clear")`.
+
 
 
