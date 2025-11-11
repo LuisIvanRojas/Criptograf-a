@@ -1,3 +1,10 @@
+/*
+Cifrado Cesar
+
+- Roja Mares Luis Ivan
+- Lee Obando Ileana Veronica
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -78,3 +85,4 @@ void descifrado() {
 	printf("\n Mensaje original: %s \n", &cipher);
 
 }
+
