@@ -6,7 +6,7 @@
 void cifrado();
 void descifrado();
 
-// función auxiliar para obtener el valor numérico de una letra
+// funciÃ³n auxiliar para obtener el valor numÃ©rico de una letra
 int valorLetra(char c) {
     return c - 'a';  // convierte 'a'=0, 'b'=1 ... 'z'=25
 }
@@ -41,7 +41,7 @@ int main() {
 }
 
 // ------------------------------------------
-// función de cifrado Vigenere
+// funciÃ³n de cifrado Vigenere
 void cifrado() {
     char mensaje[200], clave[200], cipher[200];
     printf("\nIngrese el mensaje en minusculas que desea cifrar (sin espacios): ");
