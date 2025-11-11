@@ -1,3 +1,8 @@
+#Cifrado Playfair
+#Roja Mares Luis Ivan
+#Lee Obando Ileana Veronica
+
+
 def generar_matriz(clave):
     clave = clave.lower().replace("j", "i")
     alfabeto = "abcdefghiklmnopqrstuvwxyz"  # j se une con i
@@ -115,3 +120,4 @@ if __name__ == "__main__":
             mensaje = input("Ingrese el mensaje cifrado: ")
             desc = descifrar(mensaje, matriz)
             print("Mensaje descifrado:", desc)
+
