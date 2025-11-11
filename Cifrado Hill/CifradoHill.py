@@ -1,3 +1,7 @@
+#Cifrado Hill
+#Roja Mares Luis Ivan
+#Lee Obando Ileana Veronica
+
 import numpy as np
 import math
 
@@ -117,3 +121,4 @@ if __name__ == "__main__":
     
     except ValueError as e:
         print(f"Error: {e}")
+
