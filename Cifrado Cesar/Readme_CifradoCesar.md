@@ -1,4 +1,4 @@
-### Descripción del programa – Cifrado César
+### Descripción del programa – Cifrado César en Lenguaje C
 
 Este programa implementa el Algoritmo de Cifrado César, uno de los métodos de criptografía por sustitución más antiguos y sencillos.
 El principio de funcionamiento consiste en reemplazar cada letra del mensaje original por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto, determinado por una **llave numérica**.
@@ -30,6 +30,7 @@ Al ejecutar el programa, se presenta un "menú interactivo" que permite al usuar
 
 * El comando `system("cls")` se utiliza para limpiar la consola en sistemas **Windows**.
   En entornos **Linux** o **macOS**, este comando puede sustituirse por `system("clear")`.
+
 
 
 
