@@ -52,18 +52,28 @@ Además de los algoritmos anteriores, se incluye un **reporte explicativo** sobr
 ```
 📂 Criptografia/
 ├── cesar/
-│   └── cesar.py
+│   ├── cesar.py
+│   └── README.md
+│
 ├── vigenere/
-│   └── vigenere.py
+│   ├── vigenere.py
+│   └── README.md
+│
 ├── hill/
-│   └── hill.py
+│   ├── hill.py
+│   └── README.md
+│
 ├── playfair/
-│   └── playfair.py
+│   ├── playfair.py
+│   └── README.md
+│
 ├── vernam/
-│   └── vernam.py
+│   ├── vernam.py
+│   └── README.md
+│
 └── reportes/
     └── Maquina_Enigma.pdf
-```
+
 
 Cada subcarpeta contiene el código fuente correspondiente a un algoritmo, junto con comentarios descriptivos y ejemplos de uso.
 
