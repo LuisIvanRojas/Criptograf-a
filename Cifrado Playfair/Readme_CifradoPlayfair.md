@@ -9,6 +9,7 @@ El sistema se basa en una **matriz de 5×5** generada a partir de una **palabra 
 ### Funcionamiento general
 
 1. **Generación de la matriz clave**
+
    A partir de la palabra clave ingresada por el usuario, se construye una **matriz de 5×5** que contiene las letras del alfabeto en orden.
 
    * Las letras repetidas dentro de la clave se eliminan.
@@ -16,6 +17,7 @@ El sistema se basa en una **matriz de 5×5** generada a partir de una **palabra 
    * Después de colocar las letras únicas de la clave, se completan las celdas restantes con las letras faltantes del alfabeto.
 
 2. **Preparación del texto**
+
    Antes del cifrado, el mensaje se procesa de la siguiente manera:
 
    * Se convierte a **minúsculas o mayúsculas uniformemente**.
@@ -25,6 +27,7 @@ El sistema se basa en una **matriz de 5×5** generada a partir de una **palabra 
    * Si el mensaje tiene un número impar de letras, se añade una **‘X’** al final como relleno.
 
 3. **Proceso de cifrado y descifrado**
+
    El algoritmo aplica tres reglas fundamentales según la posición de cada par de letras dentro de la matriz:
 
    * **Misma fila:** cada letra se sustituye por la que está inmediatamente a su derecha (volviendo al inicio si es necesario).
@@ -57,5 +60,6 @@ El sistema se basa en una **matriz de 5×5** generada a partir de una **palabra 
 * Aunque históricamente fue considerado seguro, actualmente su uso es principalmente **educativo**, pues los métodos modernos han superado ampliamente sus capacidades de protección.
 
 ---
+
 
 
