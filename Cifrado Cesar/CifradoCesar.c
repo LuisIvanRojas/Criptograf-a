@@ -20,7 +20,7 @@ int main() {
 		scanf("%d", &opcion);
 		system("cls");
 
-		//menu para elegir la funci髇
+		//menu para elegir la funci贸n
 		switch (opcion) {
 		case 1:
 			//funcion de cifrado
@@ -37,11 +37,11 @@ int main() {
 	}
 }
 // ------------------------------------------
-// funci髇 de cifrado
+// funci贸n de cifrado
 void cifrado() {
 	int llave;
 	char mensaje[100], letra, cipher[100];
-	// recepci髇 de mensaje y llave
+	// recepci贸n de mensaje y llave
 	printf("\nIngrese el mensaje en minusculas que desea cifrar: ");
 	scanf("%s", &mensaje);
 	printf("\nIngrese la llave (valor numerico entero): ");
@@ -63,10 +63,10 @@ void cifrado() {
 void descifrado() {
     int llave;
 	char mensaje[100], letra, cipher[100];
-	// recepci髇 de mensaje y llave
-	printf("\nIngrese el mensaje en min鷖culas que desea descifrar: ");
+	// recepci贸n de mensaje y llave
+	printf("\nIngrese el mensaje en min煤sculas que desea descifrar: ");
 	scanf("%s", &mensaje);
-	printf("\nIngrese la llave (valor num閞ico entero): ");
+	printf("\nIngrese la llave (valor num茅rico entero): ");
 	scanf("%d", &llave);
 	// proceso de cifrado
 	int i;
