@@ -1,4 +1,6 @@
-
+#Cifrado Wheatstone
+#Roja Mares Luis Ivan
+#Lee Obando Ileana Veronica
 
 def generar_matriz(clave):
     """Crea una matriz 5x5 a partir de una clave, omitiendo letras repetidas y la 'j'."""
